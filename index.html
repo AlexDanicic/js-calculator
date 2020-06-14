@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>JS Calculator</title>
+  </head>
+  <body>
+    <h1>JS Calculator</h1>
+    <div class="container">
+      <form>
+        <h2>
+          Value 1:
+          <input type="text" placeholder="First number" id="value1" />
+        </h2>
+
+        <h2>
+          Value 2: <input type="text" placeholder="Second number" id="value2" />
+        </h2>
+
+        <h4>
+          Operator:
+          <select id="operator">
+            <option value="add">Add</option>
+            <option value="subt">Subtract</option>
+            <option value="divi">Divide</option>
+            <option value="mult">Multiply</option>
+          </select>
+        </h4>
+        <button class="btn" type="button" onclick="calc()">Calculate</button>
+      </form>
+
+      <!-- output div -->
+      <div id="result"></div>
+    </div>
+  </body>
+  <!-- js -->
+  <script src="app.js"></script>
+</html>

@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(245, 238, 238);
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(157, 177, 177);
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+input {
+  font-size: 1.5rem;
+  width: 60%;
+  text-align: center;
+}
+
+.btn {
+  background-color: #ffd000;
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #e9a21f;
+}
+
+#result {
+  margin-top: 1rem;
+  padding: 0.3rem;
+  font-size: 2.5rem;
+  height: 3rem;
+  color: #fff;
+  background-color: rgb(127, 136, 136);
+}
